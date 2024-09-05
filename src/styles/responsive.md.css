@@ -1,0 +1,14 @@
+/* responsive for 0-546px */
+@media screen and (max-width:546px) {
+   .sign-form_btn svg{
+      width: 20% !important;
+      height: 1.6rem !important;
+      min-height: 1.2rem;
+   }
+   .sign-form-item_head{
+      font-size: 1rem !important;
+   }
+   .sign-form-item_input{
+      font-size: .9rem !important;
+   }
+}

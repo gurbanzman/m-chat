@@ -1,0 +1,40 @@
+/* responsive for 0-1000px */
+@media screen and (max-width:1000px) {
+   .sign-main_section{
+      width: 95% !important;
+      padding: 1.2rem !important;
+   }  
+}
+
+/* responsive for 0-846px */
+@media screen and (max-width:846px) {
+   .sign-header_title{
+      font-size: 1.6rem !important;
+   }
+   .sign-form-item_head{
+      font-size: 1.1rem !important;
+   }
+   .sign-form-item_input{
+      font-size: 1rem !important;
+   }
+   .sign-form-section_others{
+      font-size: .80rem !important;
+   }
+   .btn-git{
+      display: none !important;
+   }
+   .sign-form_btn svg{
+      width: 5% !important;
+      height: 2rem !important;
+      min-height: 2rem;
+   }
+}
+
+/* responsive for 0-726px */
+@media screen and (max-width:726px) {
+   .sign-form_btn svg{
+      width: 5% !important;
+      height: 1.5rem !important;
+      min-height: 1.5rem;
+   }
+}
