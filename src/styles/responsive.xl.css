@@ -37,4 +37,7 @@
       height: 1.5rem !important;
       min-height: 1.5rem;
    }
+   .btn-submit{
+      font-size: 1.4rem !important;
+   }
 }

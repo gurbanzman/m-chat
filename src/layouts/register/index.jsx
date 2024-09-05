@@ -99,7 +99,7 @@ export default function RegisterPage() {
               <Associative to={"/"}>You have already account?</Associative>
             </div>
             <div className="sign-form_btn">
-              <Button type={`submit`} className={`btn btn-flex btn-size`}>
+              <Button type={`submit`} className={`btn btn-flex btn-size btn-submit`}>
                 Submit
               </Button>
               <Button type={`button`} className={`btn btn-flex btn-size btn-github`}>
