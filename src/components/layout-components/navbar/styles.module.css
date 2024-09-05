@@ -1,0 +1,10 @@
+.logo{
+   font-family: 'Cinzel Decorative';
+}
+.logo-text{
+   font-size: 1.1rem;
+   letter-spacing: .20rem;
+   color: #B4B4B4;
+   -webkit-user-select: none;
+   user-select: none;
+}

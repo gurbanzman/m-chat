@@ -1,0 +1,27 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins',sans-serif;
+   word-break: break-all;
+}
+
+a{
+   text-decoration: none;
+}
+ul,li,ol{
+   list-style: none;
+}
+button{
+   background: none;
+   border: none;
+}
+input{
+   outline: none;
+   border: none;
+}
+*>img{
+   width: 100%;
+   height: 100%;
+   object-fit: fill;
+}
