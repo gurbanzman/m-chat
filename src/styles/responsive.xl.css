@@ -1,8 +1,28 @@
+/* responsive for 0-1065px */
+@media screen and (max-width:1065px) {
+   .main-chat_posts{
+      width: 48% !important;
+   }
+   .main-section_about{
+      width: 70% !important;
+   }
+   .main-section-about_head{
+      font-size: 1.2rem !important;
+   }
+   .main-section-about_desc{
+      font-size: 1rem !important;
+      line-height: 1.4rem;
+   }
+}
+
 /* responsive for 0-1000px */
 @media screen and (max-width:1000px) {
    .sign-main_section{
       width: 95% !important;
       padding: 1.2rem !important;
+   }
+   .navbar-info_head{
+      font-size: 2rem !important;
    }  
 }
 
@@ -30,6 +50,13 @@
    }
 }
 
+/* responsive for 0-760px */
+@media screen and (max-width:760px) {
+   .main-chat_posts{
+      width: 100% !important;
+   }
+}
+
 /* responsive for 0-726px */
 @media screen and (max-width:726px) {
    .sign-form_btn svg{
@@ -39,5 +66,8 @@
    }
    .btn-submit{
       font-size: 1.4rem !important;
+   }
+   .main-section_about{
+      width: 90% !important;
    }
 }

@@ -1,3 +1,10 @@
+/* responsive for 0-626px */
+@media screen and (max-width:626px) {
+   .navbar-info_head{
+      font-size: 1.7rem !important;
+   }
+}
+
 /* responsive for 0-546px */
 @media screen and (max-width:546px) {
    .sign--main{
@@ -13,5 +20,58 @@
    }
    .sign-form-item_input{
       font-size: .9rem !important;
+   }
+   .main-section-about_head{
+      font-size: 1.05rem !important;
+   }
+   .main-section-about_desc{
+      font-size: .9rem !important;
+      line-height: 1.4rem;
+   }
+}
+/* responsive for 0-510px */
+@media screen and (max-width:510px) {
+   .navbar-info_head{
+      display: none;
+   }
+}
+
+/* responsive for 0-400px */
+@media screen and (max-width:400px) {
+   .chat_posts_title{
+      padding: 0 !important;
+      font-size: 1rem !important;
+   }
+   .chat_posts_desc{
+      font-size: 1rem !important;
+   }
+   .post-count{
+      font-size: .9rem !important;
+   }
+   .post-check{
+      font-size: 1.2rem !important;
+   }
+   .chat-posts_head_link{
+      font-size: 1.1rem !important;
+   }
+   .chat-posts--time{
+      font-size: .95rem !important;
+   }
+   .icon-plus, .icon-chevron-thin-up{
+      font-size: 1.2rem !important;
+      padding: 1rem !important;
+   }
+   .main-chat_lists{
+      gap: 4rem !important;
+   }
+   .navbar-info_head{
+      font-size: 1.3rem !important;
+   }
+   .main-section_about{
+      width: 100% !important;
+      margin: 2rem auto !important;
+   }
+   .main-section-about_list{
+      list-style: none !important;
    }
 }

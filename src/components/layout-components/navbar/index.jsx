@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import styles from "./styles.module.css";
+import { InputText } from "../../ui/index";
 
 export default function Navbar() {
   return (
@@ -13,33 +14,8 @@ export default function Navbar() {
         </div>
         <div className="navbar-section_menu section">
           <form className="navbar-section_search">
-            <label htmlFor="search" className="navbar-search_head">
-              <input
-                type="text"
-                name="user_name"
-                placeholder="search user..."
-                className="navbar-search_input"
-                required
-              />
-            </label>
+            <InputText type={`text`} name={`user_name`} placeholder={`search user...`} className={`navbar-search_input`}/>
           </form>
-
-          <ul className="navbar-search_lists">
-            <li className="navbar-search_lists_head">
-              <Link to={``} className="navbar-search_user_link">
-                <p className="navbar-search_user_head">wasd</p>
-                <p className="navbar-search_user_info">
-                  <span className="navbar-search_user_name user--fullname">
-                    Murad Gurbanzada
-                  </span>
-                  <span className="navbar-search_user_name user--username">
-                    sadad
-                  </span>
-                </p>
-              </Link>
-            </li>
-          </ul>
-
           <ul className="navbar-section_lists">
             <li className="navbar-lists_option">
               <NavLink

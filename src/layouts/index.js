@@ -23,6 +23,6 @@ export {
    PostPage,
    RequestPage,
    SignPage,
-   RegisterPage
+   RegisterPage,
 }
 
