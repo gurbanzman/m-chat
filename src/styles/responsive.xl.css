@@ -28,6 +28,24 @@
    .navbar-info_head{
       font-size: 2rem !important;
    }  
+   .notification{
+      font-size: 1.1rem !important;
+   }
+   .icon-hourglass-1{
+      font-size: 2rem !important;
+   }
+   .main-head_text{
+      font-size: 1.4rem !important;
+   }
+   .request-head{
+      font-size: 1.3rem !important;
+   }
+   .request-users{
+      font-size: .97rem;
+   }
+   .half-option-user_desc{
+      font-size: 1.10rem;
+   }
 }
 
 /* responsive for 0-846px */

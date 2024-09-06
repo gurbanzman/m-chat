@@ -68,6 +68,9 @@
    .main-contact_section{
       text-align: center;
    }
+   .half{
+      width: 70% !important;
+   }
 }
 
 /* responsive for 0-1230px */

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Mega from "../../components/layout-components/mega";
+import { TitleHead } from "../../components/ui/index";
 
 export default function NotificationPage() {
   return (
@@ -7,7 +8,7 @@ export default function NotificationPage() {
       <main className="main">
         <section className="half half-section">
           <div className="half-container">
-            <h1 className="main-head_text">Bildirişlər</h1>
+            <TitleHead className={`main-head_text`}>Bildirişlər</TitleHead>
 
             <Link to={``} className="half-request">
               <p className="request-back"></p>
