@@ -33,13 +33,11 @@ export default function ContactPage() {
                 <InputText type={`email`} name={`email`} placeholder={`Zəhmət olmasa, email addresinizi yazın...`} className={`sign-form-item_input`}/>
               </div>
               <div className="sign-form-section_item">
-                <label htmlFor="password" className="sign-form-item_head">
-                  Message
-                </label>
+                <LabelText htmlFor={`message`} className={`sign-form-item_head`} text={`Mesajınız`}/>
                 <textarea
                   type="textarea"
-                  name="textarea"
-                  placeholder="Please, write your messages..."
+                  name="message"
+                  placeholder="Zəhmət olmasa, mesajınızı yazın..."
                   className="sign-form-item_input form--message"
                   required
                 ></textarea>
