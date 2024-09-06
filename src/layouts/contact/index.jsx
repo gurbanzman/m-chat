@@ -1,6 +1,6 @@
-// import Mega from "../../components/mega";
 import admin from "../../assets/images/muro.png";
-import Mega from "../../components/layout-components/mega";
+import {Mega} from "../../components/layout-components/index";
+import {Button, InputText, LabelText, TitleHead} from "../../components/ui/index";
 
 export default function ContactPage() {
   
@@ -9,9 +9,7 @@ export default function ContactPage() {
       <main className="main">
         <section className="content main-contact between">
           <div className="main-contact_section">
-            <h1 className="main-contact_head">
-              You are welcome my contact page!
-            </h1>
+            <TitleHead className={`main-contact_head`}>You are welcome my contact page!</TitleHead>
             <p className="main-contact_desc">
               I will see your written messages and I will try back to you.
             </p>
@@ -27,28 +25,12 @@ export default function ContactPage() {
           <form className="sign-section-main_form content">
             <div className="sign-form_section">
               <div className="sign-form-section_item">
-                <label htmlFor="email" className="sign-form-item_head">
-                  Full Name
-                </label>
-                <input
-                  type="text"
-                  name="fname"
-                  placeholder="Please, write your full name..."
-                  className="sign-form-item_input"
-                  required
-                />
+                <LabelText htmlFor={`fullName`} text={`Tam Adınız`} className={`sign-form-item_head`}/>
+                <InputText type={`text`} name={`fname`} placeholder={`Zəhmət olmasa, tam adınızı yazın...`} className={`sign-form-item_input`}/>
               </div>
               <div className="sign-form-section_item">
-                <label htmlFor="email" className="sign-form-item_head">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Please, write your email..."
-                  className="sign-form-item_input"
-                  required
-                />
+                <LabelText htmlFor={`email`} className={`sign-form-item_head`} text={`Email`}/>
+                <InputText type={`email`} name={`email`} placeholder={`Zəhmət olmasa, email addresinizi yazın...`} className={`sign-form-item_input`}/>
               </div>
               <div className="sign-form-section_item">
                 <label htmlFor="password" className="sign-form-item_head">
@@ -64,9 +46,7 @@ export default function ContactPage() {
               </div>
             </div>
             <div className="sign-form_btn">
-              <button type="submit" className="btn btn-flex btn-size">
-                Send
-              </button>
+              <Button type={`submit`} className={`btn btn-flex btn-size`}>Send</Button>
             </div>
           </form>
         </section>

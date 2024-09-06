@@ -6,12 +6,40 @@
    .main-chat_posts{
       width: 32% !important;
    }
+   .content{
+      width: 80% !important;
+   }
+   .main-contact_section{
+      width: 60%;
+   }
+   .main-contact_head{
+      font-size: 1.98rem !important;
+   }
+   .main-contact_link,
+   .main-contact_desc{
+      font-size: 1.1rem !important;
+   }
+   .main-contact_admin{
+      width: 25rem !important;
+      height: 25rem !important;
+   }
 }
 
 /* responsive for 0-1457px */
 @media screen and (max-width:1457px) {
    .container{
       width: 90% !important;
+   }
+}
+
+/* responsive for 0-1397px */
+@media screen and (max-width:1397px) {
+   .main-contact_head{
+      font-size: 1.7rem !important;
+   }
+   .main-contact_link,
+   .main-contact_desc{
+      font-size: 1rem !important;
    }
 }
 
@@ -26,5 +54,28 @@
    }
    .post-check{
       font-size: 1.2rem !important;
+   }
+}
+
+/* responsive for 0-1283px */
+@media screen and (max-width:1283px) {
+   .main-contact{
+      flex-direction: column-reverse;
+      align-items: center !important;
+      gap: 2.2rem;
+      margin: -1rem auto !important;
+   }
+   .main-contact_section{
+      text-align: center;
+   }
+}
+
+/* responsive for 0-1230px */
+@media screen and (max-width:1230px) {
+   .main-contact_head{
+      font-size: 1.5rem !important;
+   }
+   .main-contact_section{
+      width: 100% !important;
    }
 }

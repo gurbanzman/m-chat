@@ -13,6 +13,10 @@
       font-size: 1rem !important;
       line-height: 1.4rem;
    }
+   .main-contact_admin{
+      width: 20rem !important;
+      height: 20rem !important;
+   }
 }
 
 /* responsive for 0-1000px */
@@ -68,6 +72,9 @@
       font-size: 1.4rem !important;
    }
    .main-section_about{
+      width: 90% !important;
+   }
+   .content{
       width: 90% !important;
    }
 }
