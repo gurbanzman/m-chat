@@ -11,9 +11,8 @@ export default function AccountPage() {
             <div className="account-head_info">
               <div className="account-info_logo">
                 <figure className="account-logo">
-                  <img src={logo} alt="user-logo.png" />
+                  <img src={logo} alt="user-logo.png" loading="lazy"/>
                 </figure>
-
                 <Link className="account-edit">Profilini düzənlə</Link>
               </div>
               <ul className="account-info_text">

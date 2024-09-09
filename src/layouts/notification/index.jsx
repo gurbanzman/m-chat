@@ -9,7 +9,6 @@ export default function NotificationPage() {
         <section className="half half-section">
           <div className="half-container">
             <TitleHead className={`main-head_text`}>Bildirişlər</TitleHead>
-
             <Link to={``} className="half-request">
               <p className="request-back"></p>
               <ul className="request-container">

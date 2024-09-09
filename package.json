@@ -13,10 +13,6 @@
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^42.0.2",
     "@ckeditor/ckeditor5-react": "^8.0.0",
-    "@cometchat/chat-uikit-react": "^4.3.19",
-    "@cometchat/uikit-elements": "^4.3.15",
-    "@cometchat/uikit-resources": "^4.3.11",
-    "@cometchat/uikit-shared": "^4.3.17",
     "antd": "^5.20.5",
     "axios": "^1.7.3",
     "cors": "^2.8.5",
@@ -43,10 +39,13 @@
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
     "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.20",
     "eslint": "^8.55.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10",
     "vite": "^5.0.8"
   }
 }
