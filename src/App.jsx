@@ -20,16 +20,16 @@ function App() {
       <Routes>
         <Route path="/" element={<Sign />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/m/:id" element={<Home />} />
-        <Route path="/notification/:id" element={<Notification />} />
-        <Route path="/request/:id" element={<Request />} />
-        <Route path="/posts/:id" element={<MyPost />} />
-        <Route path="/my-likes/:id" element={<MyLike />} />
-        <Route path="/contact/:id" element={<Contact />} />
+        <Route path="/m/:slug" element={<Home />} />
+        <Route path="/notification/:slug" element={<Notification />} />
+        <Route path="/request/:slug" element={<Request />} />
+        <Route path="/posts/:slug" element={<MyPost />} />
+        <Route path="/my-likes/:slug" element={<MyLike />} />
+        <Route path="/contact/:slug" element={<Contact />} />
         <Route path="/chat/:id" element={<Chat />} />
-        <Route path="/account/:user/:id" element={<Account />} />
-        <Route path="/create-post/:id" element={<CreatePost />} />
-        <Route path="/post/:id" element={<Post />} />
+        <Route path="/account/:user/:slug" element={<Account />} />
+        <Route path="/create-post/:slug" element={<CreatePost />} />
+        <Route path="/post/:slug" element={<Post />} />
       </Routes>
     </Suspense>
   );
