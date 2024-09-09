@@ -127,4 +127,7 @@
    .main-section-about_list{
       list-style: none !important;
    }
+   .chat-body_user_block{
+      width: 80% !important;
+   }
 }

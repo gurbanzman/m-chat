@@ -10,6 +10,7 @@ const MyPost = lazy(() => import("./pages/myPost/index"));
 const MyLike = lazy(() => import("./pages/myLikes/index"));
 const Contact = lazy(() => import("./pages/contact/index"));
 const Chat = lazy(() => import("./pages/chat/index"));
+const Chating = lazy(() => import("./pages/chatting-text/index"));
 const Account = lazy(() => import("./pages/account/index"));
 const CreatePost = lazy(() => import("./pages/create-post/index"));
 const Post = lazy(() => import("./pages/post/index"));
@@ -20,16 +21,17 @@ function App() {
       <Routes>
       <Route path="/" element={<Sign />}/>
       <Route path="/register" element={<Register />}/>
-      <Route path="/m/:id" element={<Home />}/>
-      <Route path="/notification/:id" element={<Notification />}/>
-      <Route path="/request/:id" element={<Request />}/>
-      <Route path="/posts/:id" element={<MyPost />}/>
-      <Route path="/my-likes/:id" element={<MyLike />}/>
-      <Route path="/contact/:id" element={<Contact />}/>
-      <Route path="/chat/:id" element={<Chat />}/>
-      <Route path="/account/:id" element={<Account  />}/>
-      <Route path="/create-post/:id" element={<CreatePost />}/>
-      <Route path="/post/:id" element={<Post />}/>
+      <Route path="/m/:slug" element={<Home />}/>
+      <Route path="/notification/:slug" element={<Notification />}/>
+      <Route path="/request/:slug" element={<Request />}/>
+      <Route path="/posts/:slug" element={<MyPost />}/>
+      <Route path="/my-likes/:slug" element={<MyLike />}/>
+      <Route path="/contact/:slug" element={<Contact />}/>
+      <Route path="/chat/:slug" element={<Chat />}/>
+      <Route path="/chat/:slug/:slug" element={<Chating />}/>
+      <Route path="/account/:slug" element={<Account  />}/>
+      <Route path="/create-post/:slug" element={<CreatePost />}/>
+      <Route path="/post/:slug" element={<Post />}/>
     </Routes>
     </Suspense>
   )

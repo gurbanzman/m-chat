@@ -107,4 +107,31 @@
    .chat-message_container{
       display: none;
    }
+   .chatting-user{
+      display: none !important;
+   } 
+   .chatting-text{
+      display: block !important;
+      width: 100% !important;
+   }
+   .chat-body_user_link{
+      width: 3rem !important;
+      height: 3rem !important;
+      font-size: 1.40rem !important;
+   }
+   .chat-body-message_desc{
+      padding: .80rem !important;
+      font-size: 1rem !important;
+   }
+   .chat-send_message_input{
+      font-size: 1rem !important;
+      padding: .80rem !important;
+   }
+   .icon-chevron-thin-up{
+      padding: .80rem !important;
+      font-size: 1.1rem !important;
+   }
+   .chat-message_head{
+      font-size: 1.7rem !important;
+   }
 }
