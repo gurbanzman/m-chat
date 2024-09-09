@@ -12,7 +12,8 @@ function App() {
       <Route path="/posts/:id" element={<MyPost />}/>
       <Route path="/my-likes/:id" element={<MyLike />}/>
       <Route path="/contact/:id" element={<Contact />}/>
-      <Route path="/chat/:id" element={<Chat />}/>
+      <Route path="/chat/:slug" element={<Chat />}/>
+      <Route path="/chat/:slug/:slug" element={<Chat />}/>
       <Route path="/account/:id" element={<Account  />}/>
       <Route path="/create-post/:id" element={<CreatePost />}/>
       <Route path="/post/:id" element={<Post />}/>

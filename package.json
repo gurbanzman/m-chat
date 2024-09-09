@@ -13,6 +13,10 @@
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^42.0.2",
     "@ckeditor/ckeditor5-react": "^8.0.0",
+    "@cometchat/chat-uikit-react": "^4.3.19",
+    "@cometchat/uikit-elements": "^4.3.15",
+    "@cometchat/uikit-resources": "^4.3.11",
+    "@cometchat/uikit-shared": "^4.3.17",
     "antd": "^5.20.5",
     "axios": "^1.7.3",
     "cors": "^2.8.5",

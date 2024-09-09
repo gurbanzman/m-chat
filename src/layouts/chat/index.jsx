@@ -1,16 +1,16 @@
 import { Link, NavLink} from "react-router-dom";
 import Mega from "../../components/layout-components/mega";
 
-export default function ChattingPage() {
+export default function ChattingPage({className,chatClassName}) {
   return (
     <Mega>
       <main className="main chat">
         <section className="content chat-section">
           <ul className="chat-users_lists">
-            <li className="chat-user_container chat--option">
+            <li className={`chat-user_container chat--option ${className}`}>
               <ul className="chat-user">
                 <li className="chat-user_option">
-                  <NavLink className={`chat-user_head`}>
+                  <NavLink to={`/chat/murad/murad`} className={`chat-user_head`}>
                     <div className="user-option">
                       <span className="user-option_head"> sad</span>
                       <span className="chat-user_latest_mes">
@@ -41,7 +41,7 @@ export default function ChattingPage() {
                 </li>
               </ul>
             </li>
-            <li className="chat-message_container chat--option">
+            <li className={`chat-message_container chat--option ${chatClassName}`}>
               <ul className="chat-message_title">
                 <li className="chat-message_list">
                   <Link className="chat-message_head">Example chat</Link>

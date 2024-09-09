@@ -41,6 +41,9 @@
    .main-contact_desc{
       font-size: 1rem !important;
    }
+   .chat-section{
+      width: 90% !important;
+   }
 }
 
 /* responsive for 0-1375px */

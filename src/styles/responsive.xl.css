@@ -46,6 +46,9 @@
    .half-option-user_desc{
       font-size: 1.10rem;
    }
+   .chat-user_container{
+      width: 50% !important;
+   }
 }
 
 /* responsive for 0-846px */
@@ -69,6 +72,9 @@
       width: 5% !important;
       height: 2rem !important;
       min-height: 2rem;
+   }
+   .chat-user_container{
+      width: 40% !important;
    }
 }
 
@@ -94,5 +100,11 @@
    }
    .content{
       width: 90% !important;
+   }
+   .chat-user_container{
+      width: 100% !important;
+   }
+   .chat-message_container{
+      display: none;
    }
 }
