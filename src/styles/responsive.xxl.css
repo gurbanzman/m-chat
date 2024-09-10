@@ -1,3 +1,10 @@
+/* responsive for 0-1950px */
+@media screen and (max-width:1950px) {
+   .account-user_section{
+      margin-top: -4rem !important;
+   }
+}
+
 /* responsive for 0-1805px */
 @media screen and (max-width:1805px) {
    .main-chat_lists{
@@ -23,12 +30,70 @@
       width: 25rem !important;
       height: 25rem !important;
    }
+   .account-head_info{
+      flex-direction: column;
+   }
+   .account-info_text{
+      width: 95% !important;
+      margin: auto;
+      align-items: center;
+      color: #7b7b7b !important;
+   }
+   .account-user_section{
+      margin: 2.5rem 0 !important;
+      justify-content: center !important;
+   }
+   .account-info_head{
+      font-size: 1.60rem !important;
+   }
+   .account-section{
+      width: 60% !important;
+   }
+   .account-section_head::after{
+      height: 34rem !important;
+      min-height: 32rem !important;
+      border-radius: .90rem !important;
+   }
+   .account-user_option > span{
+      font-size: 1.05rem !important;
+   }
+   .account-edit{
+      font-size: 1rem !important;
+   }  
+}
+
+/* responsive for 0-1600px */
+@media screen and (max-width:1600px) {
+   .others_section{
+      margin-top: 6rem !important;
+   }
+   .account-section_head::after{
+      height: 31rem !important;
+   }
 }
 
 /* responsive for 0-1457px */
 @media screen and (max-width:1457px) {
    .container{
       width: 90% !important;
+   }
+   .account-head_info{
+      flex-direction: column-reverse !important;
+      gap: 3rem !important;
+      justify-content: center;
+      align-items: center;
+      top: 5rem; 
+   }
+   .account-info_text{
+      color: #fff !important;
+   }
+   .account-logo{
+      display: none;
+   }
+   .account-user_section{
+      position: relative;
+      z-index: 99;
+      margin-top: 8rem !important;
    }
 }
 

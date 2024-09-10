@@ -87,6 +87,19 @@
    .half-option{
       padding: .70rem .30rem !important;
    }
+   .account-user_option >span,
+   .account-edit{
+      font-size: .90rem !important;
+   }
+   .others-lists_link{
+      font-size: 1.1rem !important;
+   }
+   .account-info_logo{
+      width: 100% !important;
+   }
+   .account-user_section{
+      gap: 2.5rem !important;
+   }
 }
 
 /* responsive for 0-400px */
@@ -129,5 +142,8 @@
    }
    .chat-body_user_block{
       width: 80% !important;
+   }
+   .others-lists_link{
+      font-size: .96rem !important;
    }
 }
