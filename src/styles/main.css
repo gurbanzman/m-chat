@@ -94,6 +94,19 @@ html {
    content: '\ed77';
    font-family: Icomoon;
 }
+.responsive-menu{
+   display: none;
+}
+.bar{
+   -webkit-appearance: none;
+   appearance: none;
+   display: none;   
+}
+.bar::before{
+   content: '\ed8c';
+   font-family: Icomoon;
+   font-size: 2rem;
+}
 
 /* footer components styles */
 .footer {

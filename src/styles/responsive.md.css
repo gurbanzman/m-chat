@@ -54,8 +54,28 @@
 
 /* responsive for 0-510px */
 @media screen and (max-width:510px) {
-   .navbar-info_head{
+   .navbar-info_head,
+   ._logo-text_13t3o_7{
       display: none;
+   }
+   .navbar-section_menu{
+      position: absolute !important;
+      top: 9rem;
+      right: 1.39rem;
+      width: 90% !important;
+   }
+   .navbar-logo_link{
+      font-size: 4rem !important;
+   }
+   .navbar-section_search{
+      padding: .70rem !important;
+      height: 2.4rem !important;
+   }
+   .navbar-search_input{
+      font-size: 1rem !important;
+   }
+   .navbar-section_search::after{
+      top: .50rem !important;
    }
 }
 
