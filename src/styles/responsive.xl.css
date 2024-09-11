@@ -17,6 +17,13 @@
       width: 20rem !important;
       height: 20rem !important;
    }
+   .footer{
+      padding: 1.2rem !important;
+   }
+   .footer-section_head{
+      text-align: center !important;
+      font-size: 1.1rem !important;
+   }
 }
 
 /* responsive for 0-1000px */

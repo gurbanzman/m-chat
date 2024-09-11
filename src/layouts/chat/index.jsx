@@ -1,5 +1,6 @@
 import { Link, NavLink} from "react-router-dom";
 import Mega from "../../components/layout-components/mega";
+import { Button, InputText } from "../../components/ui";
 
 export default function ChattingPage({className,chatClassName}) {
   return (
@@ -25,13 +26,7 @@ export default function ChattingPage({className,chatClassName}) {
                 <p>Sizin chat bölümü boşdur</p>
               </ul>
               <form className="chat-user_search_form">
-                <input
-                  type="text"
-                  name="user"
-                  placeholder="New chat..."
-                  className="chat-search_input"
-                />
-                <button type="submit" className="icon-plus"></button>
+                <InputText type={`text`} name={`user`} placeholder={`New chat...`} className={`chat-search_input`}/>
               </form>
 
               <ul className="chat-search_user">
@@ -68,13 +63,8 @@ export default function ChattingPage({className,chatClassName}) {
                 </li>
               </ul>
               <form className="chat-send_message_form">
-                <input
-                  type="text"
-                  name="text"
-                  className="chat-send_message_input"
-                  placeholder="write something..."
-                />
-                <button type="submit" className="icon-chevron-thin-up"></button>
+                <InputText type={`text`} name={`text`} className={`chat-send_message_input`} placeholder={`write something...`}/>
+                <Button type={`submit`} className={`icon-chevron-thin-up`}></Button>
               </form>
             </li>
           </ul>

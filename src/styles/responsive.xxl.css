@@ -170,6 +170,7 @@
    }
    .bar:checked ~ .responsive-menu{
       transform: translateX(0%);
+      z-index: 98;
    }
    .bar:checked::before{
       position: fixed;

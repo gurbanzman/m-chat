@@ -17,6 +17,9 @@
    .half{
       width: 90% !important;
    }
+   .footer-section_head{
+      letter-spacing: .60rem !important;
+   }
 }
 
 /* responsive for 0-546px */
@@ -165,5 +168,13 @@
    }
    .others-lists_link{
       font-size: .96rem !important;
+   }
+   .footer-section_head{
+      font-size: .90rem !important;
+      letter-spacing: .40rem !important;
+   }
+   .navbar-option_link{
+      padding: .70rem !important;
+      font-size: 1.5rem !important;
    }
 }
