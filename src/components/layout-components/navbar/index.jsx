@@ -1,8 +1,9 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
 import { InputText } from "../../ui/index";
 import Menu from "../../menu";
 import CheckBox from "../../ui/checkbox";
+// import { SignedIn, UserButton } from "@clerk/clerk-react";
 
 export default function Navbar() {
   return (

@@ -1,16 +1,11 @@
 import { Link } from "react-router-dom";
-import {Mega,Header} from "../../components/layout-components/index";
-import { Button, InputText, TitleHead } from "../../components/ui/index";
-
-export default function HomePage() {
+import Mega from "../../components/layout-components/mega";
+import { Button, InputText} from "../../components/ui";
+export default function MyPostPage() {
   return (
     <Mega>
-      <Header head={`Murat`} />
       <main className="main">
-        <section className="main-section container">
-          <div className="main-section_head">
-            <TitleHead className={`main-head_text`}>Postlar</TitleHead>
-          </div>
+      <section className="main-section container">
           <ul className="main-chat_lists">
             <li className="main-chat_posts">
               <ul className="chat-posts between">
@@ -95,53 +90,6 @@ export default function HomePage() {
                   <InputText type={`checkbox`} name={`check`} className={`post-check`}/>
                 </li>
               </ul>
-            </li>
-          </ul>
-        </section>
-
-        <section className="main-section container">
-          <div className="main-section_head">
-            <TitleHead className={`main-head_text`}>Sizlər edə bilərsiniz ...</TitleHead>
-          </div>
-          <ul className="main-section_about">
-            <li className="main-section-about_list">
-              <p className="main-section-about_head">Like</p>
-              <p className="main-section-about_desc">
-                Dost-tanışlarınızın, ya da hərhansısa nəfərlərin postlarını
-                bəyənə və həmin postu oradaca müzakirə.
-              </p>
-            </li>
-            <li className="main-section-about_list">
-              <p className="main-section-about_head">Follow</p>
-              <p className="main-section-about_desc">
-                Dost-tanışlarınızı, ya da hərhansısa nəfərləri izləmək ya da
-                istək göndərmək.
-              </p>
-            </li>
-            <li className="main-section-about_list">
-              <p className="main-section-about_head">Contact</p>
-              <p className="main-section-about_desc">
-                Bizimlə çox rahat əlaqə saxlamaq.
-              </p>
-            </li>
-            <li className="main-section-about_list">
-              <p className="main-section-about_head">Account</p>
-              <p className="main-section-about_desc">
-                Hesabınızda məlumatları əldə etmək, dəyişiklər etmək.
-              </p>
-            </li>
-            <li className="main-section-about_list">
-              <p className="main-section-about_head">Post</p>
-              <p className="main-section-about_desc">
-                Ürəyinizdən keçən mesajları ya da hərhansısa mövzunu post kimi
-                paylaşaraq müzakirə etmək.
-              </p>
-            </li>
-            <li className="main-section-about_list">
-              <p className="main-section-about_head">Chat</p>
-              <p className="main-section-about_desc">
-                Dostlarınızla ya da hərhansı insanlarla doyunca söhbət.
-              </p>
             </li>
           </ul>
         </section>

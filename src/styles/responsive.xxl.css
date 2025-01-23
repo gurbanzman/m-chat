@@ -7,12 +7,6 @@
 
 /* responsive for 0-1805px */
 @media screen and (max-width:1805px) {
-   .main-chat_lists{
-      gap: 1.2rem !important;
-   }
-   .main-chat_posts{
-      width: 32% !important;
-   }
    .content{
       width: 80% !important;
    }
@@ -48,6 +42,9 @@
    }
    .account-section{
       width: 60% !important;
+   }
+   .edit-account-section{
+      width: 100% !important;
    }
    .account-section_head::after{
       height: 34rem !important;
@@ -113,10 +110,6 @@
 
 /* responsive for 0-1375px */
 @media screen and (max-width:1375px) {
-   .main-chat_posts{
-      width: 32% !important;
-      min-width: 200px !important;
-   }
    .post-count{
       font-size: 1rem !important;
    }

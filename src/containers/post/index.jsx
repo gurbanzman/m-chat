@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import Mega from "../../components/layout-components/mega";
+import { CustomButton } from "../../components/ui/Button";
+import CheckBox from "../../components/ui/checkbox";
 
 
 export default function PostPage() {
@@ -25,7 +27,7 @@ export default function PostPage() {
                     </ul>
                   </li>
                   <li className="chat-posts_head">
-                    <button type="button" className="icon-plus"></button>
+                    <CustomButton customType="button" type="plus"/>
                   </li>
                 </ul>
                 <Link className="chat_posts_title chat--post">qq</Link>
@@ -33,12 +35,7 @@ export default function PostPage() {
                 <ul className="post_footer">
                   <li className="post-footer_section">
                     <span className="post-count">21</span>
-
-                    <input
-                      type="checkbox"
-                      name="check"
-                      className="post-check"
-                    />
+                    <CheckBox name={`check`} className={`likes`}/>
                   </li>
                 </ul>
               </li>

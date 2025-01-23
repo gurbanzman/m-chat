@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-const Menu = ({className}) => {
+const Menu = ({ className }) => {
   return (
     <ul className={`navbar-section_lists ${className}`}>
       <li className="navbar-lists_option">
@@ -18,7 +18,7 @@ const Menu = ({className}) => {
       <li className="navbar-lists_option">
         <NavLink
           to={`/chat/12`}
-          className="navbar-option_link icon-send"
+          className="navbar-option_link icon-message-square"
         ></NavLink>
       </li>
       <li className="navbar-lists_option">

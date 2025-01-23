@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Mega from "../../components/layout-components/mega";
-import { TitleHead } from "../../components/ui/index";
+import { DefaultTitle } from "../../components/ui/TitleHead";
 
 export default function NotificationPage() {
   return (
@@ -8,8 +8,8 @@ export default function NotificationPage() {
       <main className="main">
         <section className="half half-section">
           <div className="half-container">
-            <TitleHead className={`main-head_text`}>Bildirişlər</TitleHead>
-            <Link to={``} className="half-request">
+            <DefaultTitle props={"Bildirişlər"}/>
+            <Link to={`/request/murad`} className="half-request">
               <p className="request-back"></p>
               <ul className="request-container">
                 <li className="request-head">İstəklər</li>

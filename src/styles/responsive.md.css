@@ -70,15 +70,8 @@
    .navbar-logo_link{
       font-size: 4rem !important;
    }
-   .navbar-section_search{
-      padding: .70rem !important;
-      height: 2.4rem !important;
-   }
    .navbar-search_input{
       font-size: 1rem !important;
-   }
-   .navbar-section_search::after{
-      top: .50rem !important;
    }
 }
 

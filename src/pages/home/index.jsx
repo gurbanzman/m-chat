@@ -1,4 +1,4 @@
-import HomePage from "../../layouts/home";
+import HomePage from "../../containers/home";
 
 export default function Home() {
   return <HomePage />;

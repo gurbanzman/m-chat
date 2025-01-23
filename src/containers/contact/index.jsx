@@ -1,6 +1,7 @@
 import admin from "../../assets/images/muro.png";
 import {Mega} from "../../components/layout-components/index";
 import {Button, InputText, LabelText, TitleHead} from "../../components/ui/index";
+import { DefaultTitle } from "../../components/ui/TitleHead";
 
 export default function ContactPage() {
   
@@ -9,7 +10,7 @@ export default function ContactPage() {
       <main className="main">
         <section className="content main-contact between">
           <div className="main-contact_section">
-            <TitleHead className={`main-contact_head`}>You are welcome my contact page!</TitleHead>
+            <DefaultTitle props={"You are welcome my contact page!"}/>
             <p className="main-contact_desc">
               I will see your written messages and I will try back to you.
             </p>
@@ -18,7 +19,7 @@ export default function ContactPage() {
             </a>
           </div>
           <figure className="main-contact_admin">
-            <img src={admin} alt="admin.png" />
+            <img src={admin} loading="lazy" alt="admin.png" />
           </figure>
         </section>
         <section id="contact" className="main-contact-form_section">

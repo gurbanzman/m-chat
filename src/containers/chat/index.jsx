@@ -54,7 +54,7 @@ export default function ChattingPage({className,chatClassName}) {
                           <Link className="chat-body_user_link">M</Link>
                         </li>
                         <li className="chat-body_message_section">
-                          <span className="chat-body-message_head">sad</span>
+                          <p className="chat-body-message_head">sad</p>
                           <p className="chat-body-message_desc">asd</p>
                         </li>
                       </ul>

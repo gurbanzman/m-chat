@@ -1,26 +1,28 @@
 /* responsive for 0-1065px */
 @media screen and (max-width:1065px) {
-   .main-chat_posts{
-      width: 48% !important;
-   }
-   .main-section_about{
+   .main-section_about {
       width: 70% !important;
    }
-   .main-section-about_head{
+
+   .main-section-about_head {
       font-size: 1.2rem !important;
    }
-   .main-section-about_desc{
+
+   .main-section-about_desc {
       font-size: 1rem !important;
       line-height: 1.4rem;
    }
-   .main-contact_admin{
+
+   .main-contact_admin {
       width: 20rem !important;
       height: 20rem !important;
    }
-   .footer{
+
+   .footer {
       padding: 1.2rem !important;
    }
-   .footer-section_head{
+
+   .footer-section_head {
       text-align: center !important;
       font-size: 1.1rem !important;
    }
@@ -28,117 +30,149 @@
 
 /* responsive for 0-1000px */
 @media screen and (max-width:1000px) {
-   .sign-main_section{
-      width: 95% !important;
+   .sign-main_section {
+      width: 90% !important;
       padding: 1.2rem !important;
    }
-   .navbar-info_head{
+
+   .navbar-info_head {
       font-size: 2rem !important;
-   }  
-   .notification{
+   }
+
+   .notification {
       font-size: 1.1rem !important;
    }
-   .icon-hourglass-1{
+
+   .icon-hourglass-1 {
       font-size: 2rem !important;
    }
-   .main-head_text{
+
+   .main-head_text {
       font-size: 1.4rem !important;
    }
-   .request-head{
+
+   .request-head {
       font-size: 1.3rem !important;
    }
-   .request-users{
+
+   .request-users {
       font-size: .97rem;
    }
-   .half-option-user_desc{
+
+   .half-option-user_desc {
       font-size: 1.10rem;
    }
-   .chat-user_container{
+
+   .chat-user_container {
       width: 50% !important;
    }
 }
 
 /* responsive for 0-846px */
 @media screen and (max-width:846px) {
-   .sign-header_title{
+   .sign-header_title {
       font-size: 1.6rem !important;
    }
-   .sign-form-item_head{
+
+   .sign-form-item_head {
       font-size: 1.1rem !important;
    }
-   .sign-form-item_input{
+
+   .sign-form-item_input {
       font-size: 1rem !important;
    }
-   .sign-form-section_others{
+
+   .sign-form-section_others {
       font-size: .80rem !important;
    }
-   .btn-git{
+
+   .btn-git {
       display: none !important;
    }
-   .sign-form_btn svg{
+
+   .sign-form_btn svg {
       width: 5% !important;
       height: 2rem !important;
       min-height: 2rem;
    }
-   .chat-user_container{
+
+   .chat-user_container {
       width: 40% !important;
    }
 }
 
-/* responsive for 0-760px */
-@media screen and (max-width:760px) {
-   .main-chat_posts{
+/* responsive for 0-780px */
+@media screen and (max-width:780px) {
+   .main-chat_lists {
       width: 100% !important;
+      min-width: 100% !important;
+   }
+
+   .main-chat_posts {
+      width: 100% !important;
+      margin: 0 !important;
    }
 }
 
 /* responsive for 0-726px */
 @media screen and (max-width:726px) {
-   .sign-form_btn svg{
+   .sign-form_btn svg {
       width: 5% !important;
       height: 1.5rem !important;
       min-height: 1.5rem;
    }
-   .btn-submit{
+
+   .btn-submit {
       font-size: 1.4rem !important;
    }
-   .main-section_about{
+
+   .main-section_about {
       width: 90% !important;
    }
-   .content{
+
+   .content {
       width: 90% !important;
    }
-   .chat-user_container{
+
+   .chat-user_container {
       width: 100% !important;
    }
-   .chat-message_container{
+
+   .chat-message_container {
       display: none;
    }
-   .chatting-user{
+
+   .chatting-user {
       display: none !important;
-   } 
-   .chatting-text{
+   }
+
+   .chatting-text {
       display: block !important;
       width: 100% !important;
    }
-   .chat-body_user_link{
+
+   .chat-body_user_link {
       width: 3rem !important;
       height: 3rem !important;
       font-size: 1.40rem !important;
    }
-   .chat-body-message_desc{
+
+   .chat-body-message_desc {
       padding: .80rem !important;
       font-size: 1rem !important;
    }
-   .chat-send_message_input{
+
+   .chat-send_message_input {
       font-size: 1rem !important;
       padding: .80rem !important;
    }
-   .icon-chevron-thin-up{
+
+   .icon-chevron-thin-up {
       padding: .80rem !important;
       font-size: 1.1rem !important;
    }
-   .chat-message_head{
+
+   .chat-message_head {
       font-size: 1.7rem !important;
    }
 }

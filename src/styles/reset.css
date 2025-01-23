@@ -5,6 +5,15 @@
    font-family: 'Poppins',sans-serif;
    word-break: break-all;
 }
+/* start general styles */
+
+body {
+   background: #DCDCDC;
+}
+
+html {
+   scroll-behavior: smooth;
+}
 
 a{
    text-decoration: none;
@@ -15,6 +24,7 @@ ul,li,ol{
 button{
    background: none;
    border: none;
+   cursor: pointer;
 }
 input{
    outline: none;

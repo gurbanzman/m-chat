@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/user-logo.png";
 import Mega from "../../components/layout-components/mega";
+import { Button } from "../../components/ui";
 
 export default function AccountPage() {
   return (
@@ -11,9 +12,9 @@ export default function AccountPage() {
             <div className="account-head_info">
               <div className="account-info_logo">
                 <figure className="account-logo">
-                  <img src={logo} alt="user-logo.png" loading="lazy"/>
+                  <img src={logo} alt="user-logo.png" loading="lazy" />
                 </figure>
-                <Link className="account-edit">Profilini düzənlə</Link>
+                <Link to={`/edit-profile/murad`} className="account-edit">Profilini düzənlə</Link>
               </div>
               <ul className="account-info_text">
                 <li className="account-info_head">Murad Gurbanzada</li>
@@ -38,16 +39,16 @@ export default function AccountPage() {
           <div className="others_section">
             <ul className="others">
               <li className="others-lists">
-                <button className="others-lists_btn">
-                  <Link className="others-lists_link">Bəyənənlər</Link>
-                </button>
+                <Button type={`button`} className={`others-lists_btn`}>
+                  <Link to={`/my-likes/murad`} className="others-lists_link">Bəyənənlər</Link>
+                </Button>
               </li>
               <li className="others-lists">
-                <button className="others-lists_btn">
-                  <Link to={``} className="others-lists_link">
+                <Button type={`button`} className={`others-lists_btn`}>
+                  <Link to={`/my-posts/murad`} className="others-lists_link">
                     Postlar
                   </Link>
-                </button>
+                </Button>
               </li>
             </ul>
           </div>

@@ -1,4 +1,4 @@
-import AccountPage from "../../layouts/account";
+import AccountPage from "../../containers/account";
 
 export default function Account() {
   return <AccountPage />;

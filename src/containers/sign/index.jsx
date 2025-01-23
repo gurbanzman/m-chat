@@ -2,10 +2,10 @@ import { ToastContainer } from "react-toastify";
 import {
   Associative,
   Button,
-  InputText,
   LabelText,
   TitleHead,
 } from "../../components/ui/index";
+import { CustomInput } from "../../components/ui/InputText";
 
 export default function SignPage() {
   return (
@@ -14,7 +14,7 @@ export default function SignPage() {
         <header className="sign-main_header">
           <TitleHead className={`sign-header_title`}>Sign Up</TitleHead>
         </header>
-        <main className="sign-section_main">
+        <div className="sign-section_main">
           <form className="sign-section-main_form" method="POST">
             <div className="sign-form_section">
               <div className="sign-form-section_item">
@@ -23,10 +23,10 @@ export default function SignPage() {
                   className={`sign-form-item_head`}
                   text={`Email`}
                 />
-                <InputText
+                <CustomInput
                   type={`email`}
                   name={`email`}
-                  placeholder={`Please, write your email...`}
+                  placeholder={`emailinizi`}
                   className={`sign-form-item_input`}
                 />
               </div>
@@ -34,24 +34,24 @@ export default function SignPage() {
                 <LabelText
                   htmlFor={`password`}
                   className={`sign-form-item_head`}
-                  text={`Password`}
+                  text={`Parola`}
                 />
-                <InputText
+                <CustomInput
                   type={`password`}
                   name={`password`}
-                  placeholder={`Please, write your password...`}
+                  placeholder={`parolanızı`}
                   className={`sign-form-item_input`}
                 />
               </div>
-              <Associative to={`/register`}>You have not account?</Associative>
+              <Associative to={`/register`}>Hesabınız yoxdur?</Associative>
             </div>
             <div className="sign-form_btn">
               <Button type={`submit`} className={`btn btn-flex btn-size btn-submit`}>
-                Submit
+                Keç
               </Button>
             </div>
           </form>
-        </main>
+        </div>
       </section>
       <ToastContainer />
     </main>

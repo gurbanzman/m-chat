@@ -1,4 +1,4 @@
-import PostPage from "../../layouts/create-post";
+import PostPage from "../../containers/create-post";
 
 export default function CreatePost() {
   return <PostPage />;

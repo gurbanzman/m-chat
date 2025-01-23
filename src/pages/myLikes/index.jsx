@@ -1,4 +1,4 @@
-import MyLikePage from "../../layouts/myLikes";
+import MyLikePage from "../../containers/myLikes";
 
 export default function MyLike() {
   return <MyLikePage />;
